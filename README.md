@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+#Save Tiger NFT Minting Web Application
+Save Tiger is a web application that allows users to mint tiger-themed NFTs on the Polygon Mumbai network. All funds generated on minting an NFT from Save Tiger are donated to charities that help to save the depleting tiger population in India.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Technology Stack
+The frontend of the application is built using React.js, Swiper.js, and Tailwind CSS. The backend is built using Hardhat, Ether.js, Web3Modal, and IPFS.
 
-## Available Scripts
+##Installation
+To install the application, first clone the repository from GitHub:
 
-In the project directory, you can run:
+git clone https://github.com/your-username/save-tiger.git
 
-### `npm start`
+Next, install the dependencies for both the frontend and backend:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+cd save-tiger
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Usage
+To run the application, type in terminal
 
-### `npm test`
+cd save-tiger
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will start the application on http://localhost:3000.
 
-### `npm run build`
+You can also check the deployed app on vercel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Connecting to Metamask
+To mint a tiger-themed NFT, users must connect their Metamask wallet to the Polygon Mumbai network. To do this, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install the Metamask browser extension and create a wallet.
+Switch to the Polygon Mumbai network in Metamask.
+Click the "Connect Wallet" button in the Save Tiger web application.
+Approve the connection in Metamask.
+Minting an NFT
+To mint an NFT, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Choose a tiger-themed NFT design.
+Enter the desired amount to contribute towards the donation.
+Click the "Mint NFT" button.
+Confirm the transaction in Metamask.
+Once the transaction is confirmed, the NFT will be minted and added to your Metamask wallet.
 
-### `npm run eject`
+Contributions
+Contributions to the Save Tiger NFT Minting Web Application are welcome! To contribute, fork the repository, make your changes, and submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+The Save Tiger NFT Minting Web Application is licensed under the MIT License. See LICENSE for more information.
